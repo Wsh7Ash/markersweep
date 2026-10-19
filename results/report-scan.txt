@@ -1,0 +1,12 @@
+markersweep — merge conflict marker scanner
+mode: dry run (pass -write to resolve mechanical blocks)
+
+examples\sample\genuine.md
+  L5-L12 [both] "HEAD" vs "feature/launch" — genuine conflict
+examples\sample\merge.txt
+  L2-L5 [empty-theirs] "HEAD" vs "feature/flags" — theirs side is empty
+  L8-L12 [identical] "HEAD" vs "feature/flags" — both sides are identical
+
+scan: 3 files (0 skipped, 0 errors), markers in 2 files
+blocks: 3 total — 1 identical, 0 empty-ours, 1 empty-theirs, 1 both, 0 malformed
+strategy "auto": 2 resolvable, 1 remain

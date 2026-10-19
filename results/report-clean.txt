@@ -1,0 +1,5 @@
+markersweep — merge conflict marker scanner
+mode: dry run (pass -write to resolve mechanical blocks)
+
+
+no conflict markers found in 3 scanned files

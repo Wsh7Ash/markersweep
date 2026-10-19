@@ -1,0 +1,11 @@
+# build artifacts
+/markersweep
+/markersweep.exe
+*.exe
+*.test
+*.out
+
+# editor / OS noise
+.idea/
+.vscode/
+.DS_Store

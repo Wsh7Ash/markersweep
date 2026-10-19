@@ -1,0 +1,64 @@
+{
+  "tool": "markersweep",
+  "version": "0.1.0",
+  "strategy": "auto",
+  "written": false,
+  "stats": {
+    "files_scanned": 3,
+    "files_skipped": 0,
+    "files_with_markers": 2,
+    "blocks": 3,
+    "identical": 1,
+    "empty_ours": 0,
+    "empty_theirs": 1,
+    "both": 1,
+    "malformed": 0,
+    "resolved": 0,
+    "remaining": 0,
+    "errors": 0
+  },
+  "files": [
+    {
+      "path": "examples\\sample\\genuine.md",
+      "bytes": 280,
+      "blocks": [
+        {
+          "start": 5,
+          "separator": 8,
+          "end": 12,
+          "ours_label": "HEAD",
+          "theirs_label": "feature/launch",
+          "kind": "both",
+          "detail": "genuine conflict",
+          "action": "unresolved"
+        }
+      ]
+    },
+    {
+      "path": "examples\\sample\\merge.txt",
+      "bytes": 172,
+      "blocks": [
+        {
+          "start": 2,
+          "separator": 4,
+          "end": 5,
+          "ours_label": "HEAD",
+          "theirs_label": "feature/flags",
+          "kind": "empty-theirs",
+          "detail": "theirs side is empty",
+          "action": "keep-common"
+        },
+        {
+          "start": 8,
+          "separator": 10,
+          "end": 12,
+          "ours_label": "HEAD",
+          "theirs_label": "feature/flags",
+          "kind": "identical",
+          "detail": "both sides are identical",
+          "action": "keep-common"
+        }
+      ]
+    }
+  ]
+}

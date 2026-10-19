@@ -1,0 +1,5 @@
+before
+<<<<<<< HEAD
+this block was hand-edited and lost its footer
+and its separator too
+after

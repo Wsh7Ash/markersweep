@@ -1,0 +1,13 @@
+server: 3
+<<<<<<< HEAD
+debug = false
+=======
+>>>>>>> feature/flags
+cache_dir = "/tmp/app"
+
+<<<<<<< HEAD
+timeout = 30
+=======
+timeout = 30
+>>>>>>> feature/flags
+retries = 3

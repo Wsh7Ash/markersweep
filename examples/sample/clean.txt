@@ -1,0 +1,4 @@
+This file has no conflict markers.
+
+A line that merely mentions that conflicts can happen:
+in a real merge you would see <<<<<<< followed by ======= and >>>>>>>.

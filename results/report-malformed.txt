@@ -1,0 +1,11 @@
+markersweep — merge conflict marker scanner
+mode: -write (strategy "union")
+
+C:\Users\0\AppData\Local\Temp\tmp.rowOSlEzsd\broken\broken.txt
+  L2-? [malformed] "HEAD" vs "" — missing ======= separator before end of file or next header
+  resolved 0, remaining 1
+
+scan: 1 files (0 skipped, 0 errors), markers in 1 files
+blocks: 1 total — 0 identical, 0 empty-ours, 0 empty-theirs, 0 both, 1 malformed
+strategy "union": 0 resolvable, 1 remain
+rewritten: 0 blocks resolved, 1 left in place

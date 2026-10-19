@@ -1,0 +1,11 @@
+markersweep — merge conflict marker scanner
+mode: -write (strategy "theirs")
+
+C:\Users\0\AppData\Local\Temp\tmp.rowOSlEzsd\tree\genuine.md
+  L5-L12 [both] "HEAD" vs "feature/launch" — genuine conflict
+  resolved 1, remaining 0
+
+scan: 3 files (0 skipped, 0 errors), markers in 1 files
+blocks: 1 total — 0 identical, 0 empty-ours, 0 empty-theirs, 1 both, 0 malformed
+strategy "theirs": 1 resolvable, 0 remain
+rewritten: 1 blocks resolved, 0 left in place
